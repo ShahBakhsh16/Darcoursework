@@ -90,4 +90,5 @@ void main() {
   print(abc || mno || xyz);
   print(abc && (xyz || mno));
   print(!mno);
+  print(abc && (!xyz || mno));
 }
