@@ -83,12 +83,24 @@ void main() {
   // print(abc && mno && xyz);
   // print(true && true && false);
 
-  bool abc = true;
-  bool xyz = false;
-  bool mno = true;
+  // bool abc = true;
+  // bool xyz = false;
+  // bool mno = true;
 
-  print(abc || mno || xyz);
-  print(abc && (xyz || mno));
-  print(!mno);
-  print(abc && (!xyz || mno));
+  // print(abc || mno || xyz);
+  // print(abc && (xyz || mno));
+  // print(!mno);
+  // print(abc && (!xyz || mno));
+
+  int totalAssignment = 6;
+  int minAssignment = 5;
+  int isAssignmentDone = 5;
+  bool isAttendclass = true;
+  if (isAssignmentDone >= minAssignment) {
+    print("Enter the Class Room");
+  } else if (isAttendclass) {
+    print("Assignment Should be done before 12:");
+  } else {
+    print("Leave the class");
+  }
 }
