@@ -1,4 +1,6 @@
 // First Class Work Dart
+import 'dart:io';
+
 void main() {
   // print("Hello Good AfterNoon");
   // var stdName = "Shah Bakhsh Mugheri";
@@ -92,15 +94,66 @@ void main() {
   // print(!mno);
   // print(abc && (!xyz || mno));
 
-  int totalAssignment = 6;
-  int minAssignment = 5;
-  int isAssignmentDone = 5;
-  bool isAttendclass = true;
-  if (isAssignmentDone >= minAssignment) {
-    print("Enter the Class Room");
-  } else if (isAttendclass) {
-    print("Assignment Should be done before 12:");
-  } else {
-    print("Leave the class");
-  }
+  // int totalAssignment = 6;
+  // int minAssignment = 5;
+  // int isAssignmentDone = 5;
+  // bool isAttendclass = true;
+  // if (isAssignmentDone >= minAssignment) {
+  //   print("Enter the Class Room");
+  // } else if (isAttendclass) {
+  //   print("Assignment Should be done before 12:");
+  // } else {
+  //   print("Leave the class");
+  // }
+
+  // print('Enter a number:');
+  // String? input = stdin.readLineSync();
+
+  // if (input != null) {
+  //   int number = int.parse(input);
+  //   print('You entered: $number');
+  // }
+
+  //List classwork in dart
+
+  // List stdName = ["SHAH BAKHSH", "MUHAMMAD AHSAN", "MUHAMMAD AWAIS"];
+
+  // List<List<int>> stdMarks = [
+  //   [32, 45, 86, 81, 12, 45],
+  //   [72, 21, 43, 48, 37, 27],
+  //   [28, 19, 28, 43, 82, 56],
+  // ];
+
+  // print(stdMarks[0][5]);
+
+  // print(stdName);
+  // print(stdName[0]);
+
+  //List classwork in dart
+
+  List stdNames = [
+    "Shah Bakhsh",
+    "Ghufaran",
+    "Usama",
+    "Ahsan",
+    "Khalid",
+    "Hamza",
+  ];
+
+  List stdMarks = [
+    [23, 56, 88, 36, 23],
+    [89, 67, 32, 28, 78],
+    [81, 43, 57, 48, 30],
+  ];
+
+  List<String> stdSubjects = [
+    "English",
+    "Sindhi",
+    "urdu",
+    "Mathematics",
+    "Chemistry",
+  ];
+  print(stdSubjects);
+  print(stdMarks);
+  print(stdNames);
 }
