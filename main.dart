@@ -1,5 +1,6 @@
 // First Class Work Dart
 import 'dart:io';
+import 'dart:vmservice_io';
 
 void main() {
   // print("Hello Good AfterNoon");
@@ -131,29 +132,187 @@ void main() {
 
   //List classwork in dart
 
-  List stdNames = [
-    "Shah Bakhsh",
-    "Ghufaran",
-    "Usama",
-    "Ahsan",
-    "Khalid",
-    "Hamza",
-  ];
+  // List stdNames = [
+  //   "Shah Bakhsh",
+  //   "Ghufaran",
+  //   "Usama",
+  //   "Ahsan",
+  //   "Khalid",
+  //   "Hamza",
+  // ];
 
-  List stdMarks = [
-    [23, 56, 88, 36, 23],
-    [89, 67, 32, 28, 78],
-    [81, 43, 57, 48, 30],
-  ];
+  // List stdMarks = [
+  //   [23, 56, 88, 36, 23],
+  //   [89, 67, 32, 28, 78],
+  //   [81, 43, 57, 48, 30],
+  // ];
 
-  List<String> stdSubjects = [
-    "English",
-    "Sindhi",
-    "urdu",
-    "Mathematics",
-    "Chemistry",
-  ];
-  print(stdSubjects);
-  print(stdMarks);
-  print(stdNames);
+  // List<String> stdSubjects = [
+  //   "English",
+  //   "Sindhi",
+  //   "urdu",
+  //   "Mathematics",
+  //   "Chemistry",
+  // ];
+  // print(stdSubjects);
+  // print(stdMarks);
+  // print(stdNames);
+
+  //List different Paretarities
+
+  // List stdName = [
+  //   'Shah Bakhsh',
+  //   'Ahsan',
+  //   'Muhammad Awais',
+  //   'Usama Korai',
+  //   'Asif Zaffar',
+  // ];
+
+  // print(stdName.length);
+  // print(stdName[stdName.length - 1]);
+
+  // stdName.clear();
+
+  // if (stdName.length > 0) {
+  //   print("List is here: $stdName");
+  // } else {
+  //   print("List is Null");
+  // }
+
+  // print(stdName.firstOrNull);
+
+  // List<String> stdMarks = ["English", "Chemistry", "Sindhi", "Urdu"];
+
+  // print(stdMarks.length);
+
+  // List stdName = [
+  //   'Shah Bakhsh',
+  //   'Ahsan',
+  //   'Muhammad Awais',
+  //   'Usama Korai',
+  //   'Asif Zaffar',
+  //   'Rameez',
+  //   'Fahad Raza',
+  //   'Muhammad Ahsan',
+  //   'Muhammad Tah',
+  //   'Salman Khan',
+  //   'Muhammad Bux',
+  //   'Muhammad Awais',
+  //   'Muhammad Ali',
+  //   'Farhan Ali',
+  //   'Milon',
+  // ];
+
+  // print(stdName.length);
+  // print(stdName[stdName.length - 15]);
+  // print(stdName);
+  // stdName.clear();
+  // print(stdName);
+
+  // if (stdName.length > 0) {
+  //   print(stdName.first);
+  // } else {
+  //   print(stdName.lastOrNull);
+  // }
+  // print(stdName.lastOrNull);
+
+  //Reversed Method....
+
+  // List stdNames = [
+  //   "Shah Bakhsh",
+  //   "Raza",
+  //   "Usama Korai",
+  //   "Salman Khan",
+  //   "Muhammad Aamir",
+  // ];
+
+  // print(stdNames);
+  // print(stdNames.reversed);
+  // print(stdNames.reversed.toList());
+
+  //isEmpty or isNotEmpty method...
+
+  // List stdNames = [
+  //   "Shah Bakhsh",
+  //   "Raza",
+  //   "Usama Korai",
+  //   "Salman Khan",
+  //   "Muhammad Aamir",
+  // ];
+
+  // print(stdNames.isEmpty);
+  // print(stdNames.isNotEmpty);
+
+  //CRUD Method create remove add Delete
+
+  // List stdNames = [
+  //   "Shah Bakhsh",
+  //   "Salman",
+  //   "Ahsan",
+  //   "Awais",
+  //   "Sameer",
+  //   "Muhammad Taha",
+  // ];
+
+  //Updated Methods
+
+  // stdNames[4] = "Saleem Mugheri";
+
+  // print(stdNames);
+
+  // stdNames.replaceRange(0, 2, ["Anas"]);
+
+  // print(stdNames);
+
+  // stdNames.replaceRange(1, 4, ["Muhammad Ali"]);
+  // print(stdNames);
+
+  // stdNames.sort();
+  // print(stdNames);
+
+  // stdNames.replaceRange(1, 3, [
+  //   "Shan",
+  //   "Atta Muhammad",
+  //   "Usama",
+  //   "Asif Zaffar",
+  //   "Muhammad Khan",
+  //   "Hasnain",
+  //   "Amjad Ali",
+  //   "Muhammad Bakhsh",
+  //   "Naeem Hussain",
+  //   "Muhammad Ibrahim",
+  //   "Muhammad Ali",
+  //   "Muhammad",
+  // ]);
+  // print(stdNames);
+
+  //Add Method
+
+  // List stdAdd = [
+  //   "Shah Bakhsh",
+  //   "Muhammad Ahsan",
+  //   "Muhammad Taha",
+  //   "Muhammad Bux",
+  // ];
+
+  // print(stdAdd);
+  // stdAdd.add("Ammar");
+  // stdAdd.addAll(['Shah', "Sikandar", "Sarfaraz", "Sami"]);
+  // print(stdAdd);
+  // stdAdd.insert(1, "Syed Bilal");
+  // print(stdAdd);
+  // stdAdd.insertAll(0, ["Raza Muhammad", "Shah Muhammad"]);
+  // print(stdAdd);
+
+  // print(stdAdd.indexOf("Shah Bakhs"));
+  // print(stdAdd);
+
+  // Remove or Delete Method
+
+  // print(stdAdd);
+  // stdAdd.remove("Muhammad Taha");
+  // print(stdAdd);
+
+  // stdAdd.removeAt(0);
+  // print(stdAdd);
 }
