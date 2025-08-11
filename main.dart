@@ -315,4 +315,207 @@ void main() {
 
   // stdAdd.removeAt(0);
   // print(stdAdd);
+
+  //List Practice
+
+  // List stdData = ["Shah Bakhsh", "Salman Khan", "Usama korai", "Muhammad Bux"];
+
+  // List sdtMarks = [
+  //   [34, 58, 39, 36, 38],
+  //   [30, 38, 27, 94, 28],
+  //   [38, 34, 69, 29, 24],
+  // ];
+
+  // print(stdData);
+  // stdData.addAll(["Sameer", "Atta Muhammad", "Muhammad Taha", "Muhammad Ali"]);
+  // print(stdData);
+  // stdData.insert(5, "Shah Muhammad");
+  // print(stdData);
+  // print(stdData.reversed);
+  // print(stdData.reversed.toList());
+
+  // stdData.sort();
+  // print(stdData);
+
+  //List Starting Class 10-08-2025
+
+  // List stdNames = ["Shah bakhsh", "Shahzeb", "Salman Khan", "Sameer"];
+  // print(stdNames);
+
+  // List<List<String>> myData = [
+  //   ["Shah Bakhsh", "Salman Khan", "Abdullah"],
+  //   ["Muhammad Ali", "Muhammad Awais", "Muhammad Taha"],
+  //   ["Shahzeb", "Shah Muhammad", "Yasir Hussain", "Ubaidullah"],
+  // ];
+
+  // print(myData[0][2]);
+  // print(myData);
+
+  // List myData = ["Shah Bakhsh", "Usama", "Yasir Hussain", "Muhammad Ali"];
+  // print(myData.length);
+  // print(myData[myData.length - 1]);
+
+  //Clear Preparetie
+
+  // List myData = ["Shah Bakhsh", "Usama", "Yasir Hussain", "Muhammad Ali"];
+  // print(myData);
+  // myData.clear();
+  // print(myData);
+
+  // if (myData.length > 0) {
+  //   print("Print the value list: $myData");
+  // } else {
+  //   print("No Value in list");
+  // }
+
+  //First or firstNull agr first hoga tu value daga nahe tu null
+  // print(myData.first);
+  // print(myData.firstOrNull);
+
+  //last lastNull agr first hoga tu value daga nahe tu null
+  // print(myData.last);
+  // print(myData.lastOrNull);
+
+  //Reversed
+
+  // print(myData.reversed);
+  // print(myData.reversed.toList());
+
+  //Ismpty or isNotempty
+
+  // print(myData.isEmpty);
+  // print(myData.isNotEmpty);
+
+  // print(myData.elementAt(0));
+
+  //CRUD
+  //1: Create
+  //2:Read
+  //3:Updat
+  //4:Delete
+
+  //=========================== Create Method =======================//
+
+  List stdData = [
+    "Ali",
+    "Aliza",
+    "Shah Bakhsh",
+    "Yasir Hussain",
+    "Zubair",
+    "Khan Muhammad",
+    "Ali Muhammad",
+    "Muhammad",
+    "Sajid",
+    "Muhammad Ali",
+    "Fahad Raza",
+  ];
+
+  // print(stdData);
+
+  //==========================Update===============================//
+
+  // stdData[0] = "Shah Bakhsh";
+  // print(stdData);
+
+  // stdData.replaceRange(1, 2, ["Salman Khan"]);
+  // print(stdData);
+
+  // stdData.sort();
+  // print(stdData);
+
+  //==========================Add===============================//
+
+  // stdData.add("Muneeb");
+
+  // print(stdData);
+  // stdData.addAll(["Rameen", "Sami", "Muhammad Bux", "Muhammad Anas"]);
+  // print(stdData);
+
+  //==========================Insert===============================//
+
+  // stdData.insert(0, "Naeem Hussain");
+  // print(stdData);
+  // stdData.insertAll(3, ["Ahsan", "Muhammad Amair", "Sudheer Ahmed", "Amjad"]);
+  // print(stdData);
+
+  //==========================IndexOf===============================//
+
+  // print(stdData.indexOf("Shah Bakhsh"));
+  // print(stdData);
+
+  //======Remove or Delete or RemoveAt or RemoveLast=============//
+
+  // stdData.remove("Yasir Hussain");
+  // print(stdData);
+
+  // stdData.removeAt(0);
+  // print(stdData);
+
+  // stdData.removeLast();
+  // print(stdData);
+
+  // stdData.removeRange(0, 6);
+  // print(stdData);
+
+  // List numbers = [34, 56, 58, 98, 34, 23, 57, 39, 28, 59, 263];
+
+  // print(numbers);
+
+  // numbers.sort();
+  // print(numbers);
+  // numbers.reversed;
+  // print(numbers);
+
+  //User Input in List
+
+  // List userData = [];
+
+  // print("Enter Your Name");
+  // String? userName = stdin.readLineSync();
+  // print("Enter Your Email Id");
+  // String? userEmail = stdin.readLineSync();
+  // print("Enter Your Country Name");
+  // String? userCountry = stdin.readLineSync();
+  // print("Enter Your country Code");
+  // String? userCountryCode = stdin.readLineSync();
+
+  // userData.addAll([
+  // userName ?? '',
+  // userEmail ?? '',
+  // userCountry ?? '',
+  // userCountryCode ?? '',
+  //   userName ?? '',
+  //   userEmail ?? '',
+  //   userCountry ?? '',
+  //   userCountryCode ?? '',
+  // ]);
+  // print(userData);
+
+  //user input Data
+
+  List userData = [];
+
+  print("Enter Your first Name");
+  String? userName = stdin.readLineSync();
+  print("Enter Your Email Id");
+  String? userEmail = stdin.readLineSync();
+  print("Enter Your Country Name");
+  String? userCountry = stdin.readLineSync();
+  print("Enter Your Pin Number");
+  int? userPin = int.tryParse(stdin.readLineSync() ?? '');
+  print("Enter Your data of birth");
+  int? userDob = int.tryParse(stdin.readLineSync() ?? '');
+  print("Enter Your valid phone number");
+  int? userPhone = int.tryParse(stdin.readLineSync() ?? '');
+
+  userData.addAll([
+    "User Name: ${userName ?? ''}",
+    "User Email: ${userEmail ?? ''}",
+    "User Country Name: ${userCountry ?? ''}",
+    "User Pin Code : ${userPin ?? ''}",
+    "User Data of birth : ${userDob ?? ''}",
+    "User Phone Number: ${userPhone ?? ''}",
+  ]);
+
+  print(userData);
 }
